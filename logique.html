@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+  <title>Logique</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <script type="text/javascript">
+// Exercice : Langues
+//  
+    var langue = prompt('Indique la langue que tu parles ! en , es, fr ?');
+  
+    if( langue == "fr"){
+      var message = "Bonjour tout le monde";
+
+    } 
+    else if( langue == "en"){
+      var message = "Hello world";
+    }
+    else if( langue == "es"){
+      var message = "Hola, Mundo";
+    }
+    else {
+      var message = "Choississez parmis les options proposées";
+    }
+    alert (message);
+console.log(message);
+ //Exercice : Affichage des scores
+      var score  = prompt("Quel est votre score? ");
+      var result1 = "Vous avez le rang A";
+      var result2 = "Vous avez le rang B"; 
+      var result3 = "Vous avez le rang C"; 
+      if( score >= 90){
+            console.log(result1);
+      }else if ( score <= 90 && score >= 50) {
+          console.log(result2);
+      }else{
+          console.log(result3);
+      }
+// Exercice : Mettre au pluriel
+// 
+  var chaise      = "chaise";
+  var nbr_chaise  = 10 ;
+  var result      = ("Il y a " + nbr_chaise +" "+ chaise +"s");
+  if( nbr_chaise > 2){
+        console.log(result);
+      }else{
+        console.log("Il n'y a qu'une seule chaise");
+      }
+  </script>
+</head>
+<body>
+
+<h1>Les Variables</h1>
+
+
+
+
+</body>
+</html>

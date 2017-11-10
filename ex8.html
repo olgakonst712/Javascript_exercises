@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="variable">
+		<title>Variable_Javascript</title>
+
+		
+
+	
+
+    </head>
+    <body>
+        <form>
+            <label for="age">Votre âge : </label><input type="text" id="age" name="age" /><br/>
+            <input type="button" id="valider" name="valider" value="Valider" onclick="resultat()"></input>
+        </form>
+        <script>
+
+ 		
+
+  function resultat (){
+   	var age = document.getElementById('age').value; 	  
+   
+   if (age <= 18)
+{
+  document.write("vous etes mineur");
+}
+else {
+ document.write("vous estes mageur");
+}
+}	
+   
+  </script>
+    </body>
+</html>
+			
+		
+		
+		
+
